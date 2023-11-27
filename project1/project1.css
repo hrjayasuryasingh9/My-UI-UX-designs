@@ -1,179 +1,156 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
-
-div {
+div{
     width: 100%;
     height: 100vh;
 }
-
-nav {
-    padding-top: 1.5px;
-    padding-bottom: 1.5px;
+nav{
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
-
-a {
-    margin: 2px;
-    font-size: 2px;
+a{
+    margin: 8px;
+    font-size: 7px;
     position: relative;
-    padding-bottom: 0.5px;
-    top: 4%;
-    left: 10%;
+    padding-bottom: 2px;
+    top: 10%;
+    left: 26%;
     font-family: sans-serif;
     font-weight: 600;
     text-decoration: none;
     color: rgb(9, 41, 136);
 }
-
-a:hover {
+a:hover{
     cursor: pointer;
-    border-bottom: 0.5px solid rgb(9, 41, 136);
+    border-bottom: 2px solid rgb(9, 41, 136);
 }
-
-#get {
+#get{
     position: relative;
-    left: 12%;
-}
-
-#signin {
-    position: relative;
-    left: 17%;
-}
-
-#search {
-    position: absolute;
-    left: 46%;
-    top: 1.325%;
-    width: 1.625px;
-    border-radius: 50%;
-    padding: all 0.75px;
-    transition: all ease 0.2s;
-}
-
-#search:hover {
-    cursor: pointer;
-    width: 2.05px;
-    box-shadow: 0 5px 7.5px 0 rgba(0, 0, 0, 0.3);
-}
-
-#code {
-    position: absolute;
-    left: 5%;
-    top: 1.55%;
-    font-size: 3.25px;
-    font-family: sans-serif;
-    color: rgb(9, 41, 136);
-    font-weight: 600;
-}
-
-#heading {
-    position: absolute;
-    font-size: 7.5px;
-    font-family: sans-serif;
-    top: 9%;
-    left: 5.075%;
-    color: rgb(9, 41, 136);
-}
-
-#man {
-    position: absolute;
-    width: 56.25px;
-    top: 4.5%;
     left: 30%;
 }
-
-#sub {
+#signin{
+    position:relative;
+    left: 42%;
+}
+#search{
+    position: absolute;
+    left: 92%;
+    top: 5.3%;
+    width: 6.5px;
+    border-radius: 50%;
+    padding: all 3px;
+    transition: all ease 0.2s;
+}
+#search:hover{
+    cursor: pointer;
+    width: 8.2px;
+    box-shadow: 0 20px 30px 0 rgb(0, 0, 0 , 0.3);
+}
+#code{
+    position: absolute;
+    left: 10%;
+    top: 3.1%;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(9, 41, 136);
+    font-weight: 600;
+}
+#heading{
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    top: 18%;
+    left: 10.3%;
+    color: rgb(9, 41, 136);
+}
+#man{
+    position: absolute;
+    width: 225px;
+    top: 9%;
+    left: 60%;
+}
+#sub{
     position: absolute;
     font-weight: 600;
-    font-size: 7.5px;
+    font-size: 15px;
     color: rgb(9, 41, 136);
-    top: 21%;
-    left: 5.075%;
+    top:42% ;
+    left: 10.3%;
 }
-
-#small {
+#small{
     position: absolute;
-    width: 10px;
-    border: 0.45px solid rgb(9, 41, 136);
+    width: 40px;
+    border: 1.8px solid rgb(9, 41, 136);
     color: royalblue;
-    top: 26%;
-    left: 5.125%;
+    top: 52%;
+    left: 10.5%;
 }
-
-p {
+p{
     position: absolute;
-    top: 30%;
-    left: 5.075%;
-    color: rgb(9, 41, 136);
-    font-size: 2px;
+    top: 60%;
+    left:10.3%;
+    color:rgb(9, 41, 136);
+    font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#start {
-    position: absolute;
-    top: 37.5%;
-    left: 5.075%;
-    width: 17.5px;
-    border-radius: 3.5px;
-    font-size: 1.5px;
+#start{
+    position:absolute;
+    top: 75%;
+    left: 10.3%;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 6px;
     font-family: sans-serif;
-    height: 5px;
+    height: 20px;
     color: beige;
     border: none;
     outline: none;
-    background: linear-gradient(#02ace4, #090a79);
+    background:linear-gradient(#02ace4,#090a79);
 }
-
-#end {
-    position: absolute;
-    top: 37.5%;
-    left: 12.15%;
-    width: 17.5px;
-    border-radius: 3.5px;
-    font-size: 1.5px;
+#end{
+    position:absolute;
+    top: 75%;
+    left: 24.3%;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 6px;
     font-family: sans-serif;
-    height: 5px;
+    height: 20px;
     color: rgb(9, 41, 136);
-    border: 0.5px solid rgb(9, 41, 136);
+    border : 1px solid rgb(9, 41, 136);
     outline: rgb(9, 41, 136);
 }
-
-#one,
-#two,
-#three {
+#one,#two,#three{
     position: absolute;
-    top: 45%;
-    width: 1.5px;
-    left: 5.175%;
+    top: 90%;
+    width: 8px;
+    left: 9.3%;
 }
-
-#two {
-    left: 6%;
+#two{
+    left: 12%;
 }
-
-#three {
-    left: 7.5%;
+#three{
+    left: 15%;
 }
-
-#tri {
+#tri{
     clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-    width: 0.5%;
-    height: 1vh;
-    background: rgb(9, 41, 136);
-    border: 0.5px solid rgb(9, 41, 136);
+    width: 2%;
+    height: 4vh;
+    background: rgb(9, 41, 136) ;
+    border: 1px solid rgb(9, 41, 136);
     position: absolute;
-    left: 3.3%;
-    top: 1.75%;
+    left: 6.6%;
+    top: 3.5%;
 }
-
-#cir {
+#cir{
     border-radius: 50%;
-    width: 0.5%;
-    height: 1vh;
-    border: 0.5px solid rgb(9, 41, 136);
+    width: 2%;
+    height: 4vh;
+    border: 1px solid rgb(9, 41, 136);
     position: absolute;
-    left: 3.8%;
-    top: 2.5%;
+    left: 7.6%;
+    top: 5%;
 }
